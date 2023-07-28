@@ -1,0 +1,83 @@
+.bg-d
+{
+    background-color: rgb(36, 55, 65);
+    height: 400px;
+    width: 60%;
+    margin: auto !important;
+    margin-top: 3rem !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);    
+}
+.ms-6 
+{
+    margin-left: 0.6rem!important;
+}
+.w-90
+{
+    width: 89.5%!important;
+}
+.h-2
+{
+    height: 2.2rem !important;
+    
+}
+.bgall
+{
+    background-color: rgb(36, 53, 63);
+}
+h1
+{
+    color: #17a2b8;
+}
+.btn-outline-co
+{
+    color: #17a2b8;
+    border: #17a2b8 solid 2px;
+}
+.btn-outline-co:hover
+{
+    background-color: #17a2b8;
+    color: white;
+}
+.text-white-50:hover
+{
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+.b-js
+{
+    background-color: transparent;
+}
+.pwd
+{
+	position: relative;
+}
+.p-viewer {
+	z-index: 9999;
+	position: absolute;
+    top: 33%;
+    right: 7%;
+    cursor: pointer;
+}
+
+.fa-eye {
+	color: #000;
+}
+.log-co
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);    
+
+}
+.fs-7
+{
+    font-size: 2.6rem;
+}
+.box
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);    
+    margin-top: 12rem !important;
+    height: 10rem;
+}
+.text-green
+{
+color: green;
+}

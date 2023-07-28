@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap.min.css">    
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="all.min.css">
+    </head>
+    <body class="bgall">
+          
+           
+            <div class="bg-d d-flex justify-content-center col-md-8 flex-column text-center">
+                <h1>Smart Login System</h1>
+                <input class="d-none m-2 mx-5 bg-transparent rounded-2 h-2 p-2 border border-white text-white"id="id" type="text" placeholder="Enter Your Name">
+                <input class="m-2 mx-5 bg-transparent rounded-2 h-2 p-2 border border-white text-white" id="E-mail" type="text" placeholder="Enter Your E-mail">
+                                <div class="pwd">
+                                    <input class="m-2 ms-6 bg-transparent rounded-2 h-2 p-2 border border-white text-white w-90"id="password" type="password" placeholder="Enter Your Password">
+                                    <span class="p-viewer" >
+                                        <i class="fa-regular fa-eye text-white" id="iconn"></i>
+                                    </span>
+                                </div> 
+                <div id="valid1"></div>  <div id="valid2"></div>             
+                <button type="button" class="btn btn-outline-co b-js mx-5 mt-3" id="In">Login</button>
+                <button type="button" class="d-none btn btn-outline-co mx-5 mt-3" id="Up">Sgin UP</button>
+                <div class="d-flex justify-content-center mt-3"><p id="pSgin-in" class=" text-white me-1"> Don’t have an account?  </p> <a id="Sgin-in" class="text-white-50 text-decoration-none" >Sign Up</a></div>
+            </div>
+
+            <!-- ======================= in log-out -->
+            <div class="opacity-0">
+                <div class="d-flex justify-content-around text-white log-co  ">
+                    <button type="button" class="btn btn-outline-warning fs-4 mt-2 mb-2 " id="Out">Log out</button>
+                    <p class="fs-7 mt-1">SMART LOGIN</p>
+                </div>
+                <div class="w-50 m-auto box"id="naame"></div>
+            </div>
+
+
+        <script src="bootstrap.bundle.min.js"></script>
+        <script src="login.js"></script>
+        <script src="all.min.js"></script>
+    </body>
+</html>
